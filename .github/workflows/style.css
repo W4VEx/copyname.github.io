@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+}
+.containner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tname, .tprice, .tcount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+
+}
+
+.tcount{
+    font-size: 35px;
+}
+.submit{
+
+    margin-bottom: 1rem;
+
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    margin: 0.5rem;
+
+}
+.Sname{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+
+    
+    
+}
+.cSname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+
+}
+.boc{
+    display: flex;
+    top: 0;
+}
+
+.exit{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.shname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 1rem;
+
+}
+
+.clname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 221, 113, 0.3);
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    min-height: 380px;
+
+
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+
+}
+.msit{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin: 2rem;
+    font-size: 20px;
+}
+
