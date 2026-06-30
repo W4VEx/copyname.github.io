@@ -23,7 +23,7 @@ function count(){
 
     tprice.addEventListener("keypress",(e)=>{
       
-setTimeout(()=>{
+setInterval(()=>{
 
    if(tprice.value > parseInt(psit*50)){   //จำนวนเงินสูงสุดของสิทธิ์
       tcount.innerHTML = parseInt(psit);  //จำนวนสิทธ์สูงสุด
@@ -134,6 +134,11 @@ function render(){
       
 function res(){
    window.location = "";
+}
+
+function clr(){
+   tname.value = '';
+   tprice.value = '';
 }
 
 
