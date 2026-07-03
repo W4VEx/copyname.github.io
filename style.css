@@ -43,7 +43,7 @@ button{
 }
 .Sname{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-gap: 20px;
     justify-content: space-between;
     align-items: center;
@@ -73,6 +73,7 @@ button{
     position: absolute;
     top: 10px;
     right: 10px;
+    cursor: pointer;
 
 }
 .shname{
@@ -114,7 +115,7 @@ button{
     font-size: 20px;
 }
 
-@media (max-width: 800px)  {
+@media (max-width: 600px)  {
 
 .Sname{
 
