@@ -132,9 +132,9 @@ function render(){
   
        
       
-function res(){
-   window.location = "";
-}
+// function res(){
+//    window.location = "";
+// }
 
 function clr(){
    tname.value = '';
