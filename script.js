@@ -126,12 +126,7 @@ function render(){
                event.target.parentNode.remove();
 
             }
-            
-         
-      
-  
-       
-      
+
 // function res(){
 //    window.location = "";
 // }
@@ -140,7 +135,6 @@ function clr(){
    tname.value = '';
    tprice.value = '';
 }
-
 
 
 

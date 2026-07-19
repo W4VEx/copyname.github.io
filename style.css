@@ -141,6 +141,7 @@ textarea{
     display: flex;
     justify-content: center;
     width: 600px;
+    resize: vertical;
     height: 100vh;
     font-size: 15px;
     padding: 5px;
