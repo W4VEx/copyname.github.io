@@ -136,9 +136,40 @@ function clr(){
    tprice.value = '';
 }
 
+function ccounts(){
+      let counttxt = document.getElementById("txth")
+   setInterval(()=>{
+
+      let txta = document.getElementById("txta")
+      let lines = txta.value.split("\n")
+      let lowcol = lines.length
+      let ctxt = ((''),lowcol)
+
+      counttxt.innerHTML = ` จำนวนรายชื่อ : ${ctxt-1}`;
+
+   },10);
 
 
 
+}
+
+ccounts();
+
+
+txta.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        const value = this.value;
+        const cursorPosition = this.selectionStart;
+        
+        // ดึงข้อความก่อนเคอร์เซอร์ 1 ตัวล่าสุด
+        const lastChar = value.substring(cursorPosition - 1, cursorPosition);
+
+        // ถ้าตัวก่อนหน้าเป็น Enter (\n) อยู่แล้ว จะกดซ้ำไม่ได้
+        if (lastChar === '\n') {
+            event.preventDefault();
+        }
+    }
+});
    
    
 
